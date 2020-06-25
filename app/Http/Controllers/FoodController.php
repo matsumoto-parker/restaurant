@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Category;
+use App\Food;
 
-class CategoryController extends Controller
+class FoodController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return "index";
+
     }
 
     /**
@@ -24,7 +24,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('category.create');
+        //
     }
 
     /**
@@ -35,7 +35,7 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        return "ok";
+        //
     }
 
     /**
